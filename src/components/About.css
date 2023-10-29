@@ -1,0 +1,151 @@
+.about-header {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.738);
+    padding: 15px;
+    background-color: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 51, 75, 0.2) 0px -3px 0px inset;
+}
+
+@keyframes smooth-bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .about-header {
+    animation: smooth-bounce 2s;
+  }
+
+  .about-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-image {
+    border-radius: 25px;
+  }
+
+  .about-holder {
+    margin-top: 25px;
+  }
+
+  .qualification-word {
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(142, 142, 142);
+  }
+
+
+  /*Qualifications Styles*/
+  .certificate-holder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qualification-image {
+    width: 400px;
+  }
+
+  .qualification-word {
+    text-decoration: underline;
+  }
+
+   /*Media Queries*/
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    .about-header {
+      font-size: 25px;
+    }
+
+    .about-paragraph {
+      margin-bottom: 25px;
+    }
+
+    .about-carousel {
+      padding: 30px;
+    }
+   }
+ 
+   @media screen and (min-width: 768px) and (max-width: 991px) {
+    .about-header {
+      font-size: 30px;
+    }
+
+    .about-paragraph {
+      margin-bottom: 25px;
+    }
+
+    .about-carousel {
+      padding: 30px;
+    }
+    }
+
+
+  @media screen and (min-width: 300px) and (max-width: 575px) {
+      /* Apply styling for screens between 300px and 575px */
+      .about-header {
+        font-size: 20px;
+      }
+
+      .about-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+      }
+
+      .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .qualification-box-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .qualifications-box-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem;
+      }
+
+      .qualification {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .qualification-image {
+          width: 250px;
+          margin: 0.5rem;
+      }
+  
+    }

@@ -1,0 +1,86 @@
+.webdevelopment-header {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.738);
+  padding: 15px;
+  background-color: cornflowerblue;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 51, 75, 0.2) 0px -3px 0px inset;
+}
+
+.app-image-box {
+  border: 1px solid rgb(209, 209, 209);
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 5px;
+  transition: transform 0.9s ease; /* Add a smooth transition effect */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-link-text {
+  color: rgb(216, 216, 216);
+  font-style: italic;
+}
+
+.app-image-box:hover {
+  transform: scale(1.1); /* Scale the card to 110% on hover */
+}
+
+.web-dev-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.web-dev-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-dev-mother {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-dev-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-dev-holder {
+  border: 1px solid rgb(229, 229, 229);
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.web-image {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.web-app-dis {
+  font-size: 15px;
+  color: rgb(186, 186, 186);
+  font-style: italic;
+}
+
+@media screen and (min-width: 300px) and (max-width: 575px) {
+  /* Apply styling for screens between 300px and 575px */
+  .webdevelopment-header {
+    font-size: 20px;
+  }
+
+  .web-image {
+    width: 150px;
+  }
+}
